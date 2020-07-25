@@ -1,9 +1,9 @@
 name: GHES Acceptance Tests
 
-on: workflow_dispatch
-# on:
-#   pull_request:
-#     types: [opened, synchronize, reopened]
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
   acceptance-tests:
